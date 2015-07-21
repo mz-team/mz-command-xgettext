@@ -1,0 +1,26 @@
+{
+  "name": "mz-command-xgettext",
+  "version": "1.0.0",
+  "description": "mz-fis xgettext command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mz-team/mz-command-xgettext.git"
+  },
+  "keywords": [
+    "mz",
+    "fis",
+    "xgettext",
+    "gettext",
+    "i18n"
+  ],
+  "author": "kaiye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mz-team/mz-command-xgettext/issues"
+  },
+  "homepage": "https://github.com/mz-team/mz-command-xgettext#readme"
+}
