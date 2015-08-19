@@ -48,8 +48,8 @@ exports.register = function(commander) {
         }
     });
 
-    var namespace = fis.config.get('namespace') || 'message',
-        filepath = root + '/lang/'+ namespace + '.po',
+    var lang = fis.config.get('lang').toLowerCase() || 'message',
+        filepath = root + '/lang/'+ lang + '.po',
         isAppend = fis.util.exists(filepath),
         po_content = isAppend ? '' : 'msgid ""\nmsgstr ""\n"Content-Type: text/plain; charset=UTF-8"\n\n',
         old_po_content = isAppend ? fis.util.read(filepath) : '';
