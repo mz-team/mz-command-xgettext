@@ -1,7 +1,6 @@
-
 /*
  * modified by kaiye
- * from fis-command-xgettext
+ * forked from fis-command-xgettext
  */
 
 'use strict';
